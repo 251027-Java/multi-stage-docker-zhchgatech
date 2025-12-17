@@ -25,7 +25,7 @@ docker build -f Dockerfile.basic -t myapp:fat .
 docker images myapp:fat
 ```
 
-**Record**: Image size = _______ MB
+**Record**: Image size = _892______ MB
 
 ### Task 2: Create Multi-Stage Dockerfile
 Create a new `Dockerfile` with two stages:
@@ -48,9 +48,9 @@ docker images | grep myapp
 ```
 
 **Record**:
-- Fat image size: _______ MB
-- Slim image size: _______ MB
-- Size reduction: _______ %
+- Fat image size: ___892____ MB
+- Slim image size: __294_____ MB
+- Size reduction: ___67____ %
 
 ### Task 4: Create .dockerignore
 Create a `.dockerignore` file to exclude:
